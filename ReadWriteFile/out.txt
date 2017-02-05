@@ -1,0 +1,5 @@
+Sum = 1
+Sum = 3
+Sum = 6
+Sum = 10
+Sum = 15
