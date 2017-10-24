@@ -10,6 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encryption", "Encryption\Encryption.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestEncryptionLib", "TestEncryptionLib\TestEncryptionLib.vcxproj", "{37333E29-6F80-4A60-AD36-92DBF6D699D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B12702AD-ABFB-343A-A199-8E24837244A3} = {B12702AD-ABFB-343A-A199-8E24837244A3}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,6 +33,18 @@ Global
 		{7BFD02DE-5782-4876-A1DE-4CAB7FE72DF3}.Release|x64.Build.0 = Release|x64
 		{7BFD02DE-5782-4876-A1DE-4CAB7FE72DF3}.Release|x86.ActiveCfg = Release|Win32
 		{7BFD02DE-5782-4876-A1DE-4CAB7FE72DF3}.Release|x86.Build.0 = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.ActiveCfg = Release|x64
+		{37333E29-6F80-4A60-AD36-92DBF6D699D3}.Debug|x64.ActiveCfg = Debug|x64
+		{37333E29-6F80-4A60-AD36-92DBF6D699D3}.Debug|x64.Build.0 = Debug|x64
+		{37333E29-6F80-4A60-AD36-92DBF6D699D3}.Debug|x86.ActiveCfg = Debug|x64
+		{37333E29-6F80-4A60-AD36-92DBF6D699D3}.Release|x64.ActiveCfg = Release|x64
+		{37333E29-6F80-4A60-AD36-92DBF6D699D3}.Release|x64.Build.0 = Release|x64
+		{37333E29-6F80-4A60-AD36-92DBF6D699D3}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
